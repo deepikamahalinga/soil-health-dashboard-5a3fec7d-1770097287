@@ -1,0 +1,105 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+.nyc_output
+
+# Next.js
+/.next/
+/out/
+.next
+next-env.d.ts
+
+# Production
+/build
+/dist
+.turbo
+
+# Environment Variables
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+.env.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - JetBrains
+.idea
+*.iml
+*.iws
+.idea_modules/
+
+# IDE - Others
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+*.pem
+Thumbs.db
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# PostgreSQL
+*.sql
+*.dump
+*.sqlite
+
+# Redis
+*.rdb
+dump.rdb
+
+# Cache
+.cache
+.npm
+
+# Misc
+*.bak
+*.tmp
+*.temp
+.DS_Store
+*.pem
+.eslintcache
+.stylelintcache
+
+# Local Netlify folder
+.netlify
+
+# PWA
+public/sw.js
+public/workbox-*.js
+public/worker-*.js
+public/sw.js.map
+public/workbox-*.js.map
+public/worker-*.js.map
